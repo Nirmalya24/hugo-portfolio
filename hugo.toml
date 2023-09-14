@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Nirmalya Ghosh'
+theme = 'archie'
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/nirmalya24"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/nirmalyagh/"
