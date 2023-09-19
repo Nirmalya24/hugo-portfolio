@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Nirmalya Ghosh'
 theme = 'archie'
 
+[params]
+  mode="toggle" # color mode: light, dark, auto or toggle
 
 [[params.social]]
 name = "GitHub"
@@ -13,3 +15,34 @@ url = "https://github.com/nirmalya24"
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://linkedin.com/in/nirmalyagh/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/nirmalya24"
+
+[[menu.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/nirmalyagh/"
+
